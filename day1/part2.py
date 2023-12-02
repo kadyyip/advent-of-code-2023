@@ -30,4 +30,4 @@ def addCalibrationValues(fileName):
         sum += getCalibrationValue(line) 
     return sum
 
-print(addCalibrationValues("day1/input.txt"))
+print(addCalibrationValues("input.txt"))

@@ -20,7 +20,6 @@ def isAdjacentToSymbol(row, col, graph):
 def sumPartNums(fileName):
     graph = createGraph(fileName)
     sumPartNums = 0
-    print(isAdjacentToSymbol(4, 137, graph))
     for row in range(len(graph)):
         currPartNum = ""
         isAdj = False
